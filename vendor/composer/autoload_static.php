@@ -41,6 +41,11 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         array (
             'voku\\' => 5,
         ),
+        'r' => 
+        array (
+            'romanzipp\\Fixer\\' => 16,
+            'romanzipp\\Blockade\\' => 19,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -87,6 +92,8 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\Url\\' => 11,
+            'Spatie\\Macroable\\' => 17,
         ),
         'R' => 
         array (
@@ -180,6 +187,14 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
+        ),
+        'romanzipp\\Fixer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src',
+        ),
+        'romanzipp\\Blockade\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src',
         ),
         'phpDocumentor\\Reflection\\' => 
         array (
@@ -310,6 +325,14 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Spatie\\Url\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/url/src',
+        ),
+        'Spatie\\Macroable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/macroable/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -512,6 +535,7 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Controllers\\Site\\ContactUsController' => __DIR__ . '/../..' . '/app/Http/Controllers/Site/ContactUsController.php',
         'App\\Http\\Controllers\\Site\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Site/HomeController.php',
+        'App\\Http\\Controllers\\Site\\PageController' => __DIR__ . '/../..' . '/app/Http/Controllers/Site/PageController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
@@ -4217,6 +4241,11 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spatie\\Macroable\\Macroable' => __DIR__ . '/..' . '/spatie/macroable/src/Macroable.php',
+        'Spatie\\Url\\Exceptions\\InvalidArgument' => __DIR__ . '/..' . '/spatie/url/src/Exceptions/InvalidArgument.php',
+        'Spatie\\Url\\Helpers\\Arr' => __DIR__ . '/..' . '/spatie/url/src/Helpers/Arr.php',
+        'Spatie\\Url\\QueryParameterBag' => __DIR__ . '/..' . '/spatie/url/src/QueryParameterBag.php',
+        'Spatie\\Url\\Url' => __DIR__ . '/..' . '/spatie/url/src/Url.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Color' => __DIR__ . '/..' . '/symfony/console/Color.php',
@@ -5078,6 +5107,25 @@ class ComposerStaticInit48ea802083213a8c43f7807f0755b8bf
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
         'phpDocumentor\\Reflection\\Utils' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/Utils.php',
+        'romanzipp\\Blockade\\Concerns\\ValidatesPassword' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Concerns/ValidatesPassword.php',
+        'romanzipp\\Blockade\\Console\\Commands\\InstallBlockadeCommand' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Console/Commands/InstallBlockadeCommand.php',
+        'romanzipp\\Blockade\\Handlers\\AbstractHandler' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Handlers/AbstractHandler.php',
+        'romanzipp\\Blockade\\Handlers\\Contracts\\HandlerContract' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Handlers/Contracts/HandlerContract.php',
+        'romanzipp\\Blockade\\Handlers\\FormHandler' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Handlers/FormHandler.php',
+        'romanzipp\\Blockade\\Handlers\\QueryParameterHandler' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Handlers/QueryParameterHandler.php',
+        'romanzipp\\Blockade\\Http\\Controllers\\ValidatePasswordController' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Http/Controllers/ValidatePasswordController.php',
+        'romanzipp\\Blockade\\Http\\Middleware\\BlockadeMiddleware' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Http/Middleware/BlockadeMiddleware.php',
+        'romanzipp\\Blockade\\Providers\\BlockadeServiceProvider' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Providers/BlockadeServiceProvider.php',
+        'romanzipp\\Blockade\\Services\\Blockade' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Services/Blockade.php',
+        'romanzipp\\Blockade\\Stores\\AbstractStore' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Stores/AbstractStore.php',
+        'romanzipp\\Blockade\\Stores\\Contracts\\StoreContract' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Stores/Contracts/StoreContract.php',
+        'romanzipp\\Blockade\\Stores\\CookieStore' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Stores/CookieStore.php',
+        'romanzipp\\Blockade\\Stores\\SessionStore' => __DIR__ . '/..' . '/romanzipp/laravel-blockade/src/Stores/SessionStore.php',
+        'romanzipp\\Fixer\\Config' => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src/Config.php',
+        'romanzipp\\Fixer\\Presets\\AbstractPreset' => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src/Presets/AbstractPreset.php',
+        'romanzipp\\Fixer\\Presets\\DynamicPreset' => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src/Presets/DynamicPreset.php',
+        'romanzipp\\Fixer\\Presets\\PrettyLaravel' => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src/Presets/PrettyLaravel.php',
+        'romanzipp\\Fixer\\Presets\\PrettyPHP' => __DIR__ . '/..' . '/romanzipp/php-cs-fixer-config/src/Presets/PrettyPHP.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
     );
 

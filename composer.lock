@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aee579effc33e4dd37a70cba3e149618",
+    "content-hash": "9350540d40a4774cb01f17f5816c1d02",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2483,6 +2483,213 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+        },
+        {
+            "name": "romanzipp/laravel-blockade",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romanzipp/Laravel-Blockade.git",
+                "reference": "2b9ed4c87bc85bac9873f091d0a7d77347bd39cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romanzipp/Laravel-Blockade/zipball/2b9ed4c87bc85bac9873f091d0a7d77347bd39cc",
+                "reference": "2b9ed4c87bc85bac9873f091d0a7d77347bd39cc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/console": "^5.5|^6.0|^7.0|^8.0",
+                "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
+                "php": "^7.1|^8.0",
+                "romanzipp/php-cs-fixer-config": "^1.0",
+                "spatie/url": "^1.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.17",
+                "laravel/framework": "^5.5|^6.0|^7.0|^8.0",
+                "mockery/mockery": "^1.3.2",
+                "orchestra/testbench": "^3.8|^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "romanzipp\\Blockade\\Providers\\BlockadeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "romanzipp\\Blockade\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "romanzipp",
+                    "email": "ich@ich.wtf",
+                    "homepage": "https://ich.wtf"
+                }
+            ],
+            "description": "Laravel Blockade package",
+            "support": {
+                "issues": "https://github.com/romanzipp/Laravel-Blockade/issues",
+                "source": "https://github.com/romanzipp/Laravel-Blockade/tree/1.1.2"
+            },
+            "time": "2021-01-15T18:27:21+00:00"
+        },
+        {
+            "name": "romanzipp/php-cs-fixer-config",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/romanzipp/PHP-CS-Fixer-Config.git",
+                "reference": "96053962b762d99c547fef475fe77f7929f1b927"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/romanzipp/PHP-CS-Fixer-Config/zipball/96053962b762d99c547fef475fe77f7929f1b927",
+                "reference": "96053962b762d99c547fef475fe77f7929f1b927",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.12",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "romanzipp\\Fixer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "romanzipp",
+                    "email": "ich@ich.wtf",
+                    "homepage": "https://ich.wtf"
+                }
+            ],
+            "description": "Personal PHP-CS-Fixer Configuration",
+            "support": {
+                "issues": "https://github.com/romanzipp/PHP-CS-Fixer-Config/issues",
+                "source": "https://github.com/romanzipp/PHP-CS-Fixer-Config/tree/1.0.10"
+            },
+            "time": "2021-02-03T16:44:14+00:00"
+        },
+        {
+            "name": "spatie/macroable",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/macroable.git",
+                "reference": "7a99549fc001c925714b329220dea680c04bfa48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/macroable/zipball/7a99549fc001c925714b329220dea680c04bfa48",
+                "reference": "7a99549fc001c925714b329220dea680c04bfa48",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0|^9.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Macroable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A trait to dynamically add methods to a class",
+            "homepage": "https://github.com/spatie/macroable",
+            "keywords": [
+                "macroable",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/macroable/issues",
+                "source": "https://github.com/spatie/macroable/tree/1.0.1"
+            },
+            "time": "2020-11-03T10:15:05+00:00"
+        },
+        {
+            "name": "spatie/url",
+            "version": "1.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/url.git",
+                "reference": "3633de58e0709ea98cecceff61ee51caf1fde7e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/url/zipball/3633de58e0709ea98cecceff61ee51caf1fde7e3",
+                "reference": "3633de58e0709ea98cecceff61ee51caf1fde7e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "psr/http-message": "^1.0",
+                "spatie/macroable": "^1.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0|^9.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Url\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Parse, build and manipulate URL's",
+            "homepage": "https://github.com/spatie/url",
+            "keywords": [
+                "spatie",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/url/issues",
+                "source": "https://github.com/spatie/url/tree/1.3.5"
+            },
+            "time": "2020-11-03T10:36:20+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

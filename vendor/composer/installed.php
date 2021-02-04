@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'cf8cd87c0e896b0e60a197696d9790701df270e4',
+    'reference' => '595a55ad2aef0fbd476f19f63c78d88fbcb5303e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -440,7 +440,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'cf8cd87c0e896b0e60a197696d9790701df270e4',
+      'reference' => '595a55ad2aef0fbd476f19f63c78d88fbcb5303e',
     ),
     'laravel/tinker' => 
     array (
@@ -804,6 +804,24 @@
         0 => '4.1.1',
       ),
     ),
+    'romanzipp/laravel-blockade' => 
+    array (
+      'pretty_version' => '1.1.2',
+      'version' => '1.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2b9ed4c87bc85bac9873f091d0a7d77347bd39cc',
+    ),
+    'romanzipp/php-cs-fixer-config' => 
+    array (
+      'pretty_version' => '1.0.10',
+      'version' => '1.0.10.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '96053962b762d99c547fef475fe77f7929f1b927',
+    ),
     'sebastian/cli-parser' => 
     array (
       'pretty_version' => '1.0.1',
@@ -947,6 +965,24 @@
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'spatie/macroable' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7a99549fc001c925714b329220dea680c04bfa48',
+    ),
+    'spatie/url' => 
+    array (
+      'pretty_version' => '1.3.5',
+      'version' => '1.3.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3633de58e0709ea98cecceff61ee51caf1fde7e3',
     ),
     'swiftmailer/swiftmailer' => 
     array (
