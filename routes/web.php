@@ -1,5 +1,8 @@
 <?php
 
+use App\Mail\TestMail;
+use App\User;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $user = new User();
+    $user->name = "elsayed";
+    $user->email = "elsayedkamal581999@gmail.com";
+    Mail::to($user)->send(new TestMail());
     return view('welcome');
 });
 
