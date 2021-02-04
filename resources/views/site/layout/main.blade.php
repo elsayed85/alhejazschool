@@ -29,7 +29,10 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><span>Square.</span></a>
+            <a class="navbar-brand" href="{{ route('site.home') }}">
+                <img class="logo" alt="logo" src="{{ asset('site/assets/logo.png') }}" width="60px">
+                <span>Alhejaz School</span>
+            </a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -48,8 +51,6 @@
                     <li class="nav-item"><a href="#" class="nav-link" data-nav-section="blog"><span>Blog</span></a></li>
                     <li class="nav-item"><a href="#" class="nav-link"
                             data-nav-section="contact"><span>Contact</span></a></li>
-                    <li class="nav-item cta"><a href="#" class="nav-link">Request a quote</a></li>
-
                 </ul>
             </div>
         </div>
@@ -62,14 +63,14 @@
             <div class="row mb-5">
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Square</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts.</p>
-                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                        </ul>
+                        <h2 class="ftco-heading-2">Al-Hejaz International School</h2>
+                        <p style="font-size: 13px">Al Hejaz is an international school based in Jeddah. The School is licensed by
+                            the Saudi Arabian Ministry of Education and delivers a British Curriculum. The language
+                            of education within the school is English.</p>
+                        <p style="font-size: 13px">As part of its commitment to support the strengthening of Saudi identity and
+                            Islamic ethos, and in keeping with Ministry of Education rules, the school also delivers
+                            Arabic, Islamic studies, the History and Geography of the Saudi Kingdom and Quran
+                            lessons in the Arabic language.</p>
                     </div>
                 </div>
                 <div class="col-md">
@@ -86,44 +87,56 @@
                 </div>
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Services</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Architectural Design</a>
-                            </li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Interior Design</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Exterior Design</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Lighting Design</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>AutoCAD Service</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <h2 class="ftco-heading-2">Girls Section</h2>
                         <div class="block-23 mb-3">
                             <ul>
                                 <li>
                                     <span class="icon icon-map-marker"></span><span class="text">
                                         <address>
-                                            <span class="addressdetails_companyprofile">Building: </span>Al Hejaz
-                                            International School Building<br><span
-                                                class="addressdetails_companyprofile">Street: </span>Sabreen
-                                            Street<br><span class="addressdetails_companyprofile">Area: </span>Al
-                                            Aziziyah Area<br><span class="addressdetails_companyprofile">P.O. Box:
-                                            </span>4100<br><span class="addressdetails_companyprofile">Country:
-                                            </span>Saudi Arabia<br><span class="addressdetails_companyprofile"> City:
-                                            </span>Jeddah<br><span class="addressdetails_companyprofile">City Suffix:
-                                            </span>21491
+                                            Al-Hejaz International School (Jeddah)
+                                            PO BOX 4100 JEDDAH 21491<br>
+                                            Kingdom of Saudi Arabia (KSA)<br>
+                                            Fax: +966-2-6717090<br>
                                         </address>
+
                                     </span>
                                 </li>
-                                <li><a href="tel:+966-12-6171000"><span class="icon icon-phone"></span>
-                                        <span class="text">+966-12-6171000</span>
+                                <li><a href="tel:+966-2-6171000"><span class="icon icon-phone"></span>
+                                        <span class="text">+966-2-6171000</span>
                                     </a></li>
                                 <li>
-                                    <a href="mail:admin@@alhejazschool.org">
+                                    <a href="info@alhejazschool.org">
                                         <span class="icon icon-envelope"></span>
-                                        <span class="text">admin@@alhejazschool.org</span>
+                                        <span class="text">info@alhejazschool.org</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Boys Section</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li>
+                                    <span class="icon icon-map-marker"></span><span class="text">
+                                        <address>
+                                            Al-Hejaz International School (Jeddah)
+                                            PO BOX 4100 JEDDAH 21491<br>
+                                            Kingdom of Saudi Arabia (KSA)<br>
+                                            Fax: +966-2-6717090<br>
+                                        </address>
+
+                                    </span>
+                                </li>
+                                <li><a href="tel:+966-2-6171000"><span class="icon icon-phone"></span>
+                                        <span class="text">+966-2-6171000</span>
+                                    </a></li>
+                                <li>
+                                    <a href="info@alhejazschool.org">
+                                        <span class="icon icon-envelope"></span>
+                                        <span class="text">info@alhejazschool.org</span>
                                     </a>
                                 </li>
                             </ul>
@@ -133,14 +146,11 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-
                     <p>
-
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
                         </script>
-
                     </p>
                 </div>
             </div>
@@ -169,10 +179,6 @@
     <script src="{{ asset('site/js/aos.js') }}"></script>
     <script src="{{ asset('site/js/jquery.animateNumber.min.js') }}"></script>
     <script src="{{ asset('site/js/scrollax.min.js') }}"></script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
-    </script>
-    <script src="{{ asset('site/js/google-map.js') }}"></script>
     <script src="{{ asset('site/js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     @yield('js')

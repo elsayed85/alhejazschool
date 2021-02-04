@@ -1,7 +1,7 @@
 @extends('site.layout.main')
 @section('title' , "Home")
 @section('main')
-<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset("site/images/bg_1.jpg") }}');"
+<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('site/assets/cover.png') }}');"
     data-section="home">
     <div class="overlay"></div>
     <div class="container">
@@ -15,10 +15,12 @@
                         <span class="watch">Watch Video</span>
                     </a>
                 </p>
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We have a passion
-                    in creating new and unique spaces</h1>
-                <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any
-                    corner of the world, without going around in circles</p>
+                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">World's Best School
+                </h1>
+                <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Al Hejaz International
+                    School has a distinctive collegiate structure. Students and academics benefit from belonging both to
+                    the School, a large, internationally-renowned institution, and to a college or hall, a small,
+                    interdisciplinary academic community. </p>
             </div>
         </div>
     </div>
@@ -31,11 +33,11 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-layers"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Perfectly Design</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                            your mouth.</p>
-                        <p><a href="#" class="btn btn-primary">Read more</a></p>
+                        <h3 class="heading mb-3">OUR MISSION</h3>
+                        <p>To be the leading English speaking International School in Jeddah ...
+                        </p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'our-mission']) }}"
+                                class="btn btn-primary">Read more</a></p>
                     </div>
                 </div>
             </div>
@@ -43,11 +45,11 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-compass-symbol"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Carefully Planned</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                            your mouth.</p>
-                        <p><a href="#" class="btn btn-primary">Read more</a></p>
+                        <h3 class="heading mb-3">OUR VISION</h3>
+                        <p>To create an inspirational lifelong learning campus ...
+                        </p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'our-vision']) }}"
+                                class="btn btn-primary">Read more</a></p>
                     </div>
                 </div>
             </div>
@@ -55,11 +57,52 @@
                 <div class="media block-6 services text-center d-block">
                     <div class="icon"><span class="flaticon-layers"></span></div>
                     <div class="media-body">
-                        <h3 class="heading mb-3">Smartly Execute</h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                            your mouth.</p>
-                        <p><a href="#" class="btn btn-primary">Read more</a></p>
+                        <h3 class="heading mb-3">OUR ETHOS</h3>
+                        <p>Our ethos is defined by Faith, Excellence and Service.</p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'our-ethos']) }}"
+                                class="btn btn-primary">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row services-section">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services text-center d-block">
+                    <div class="icon"><span class="flaticon-layers"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">FAITH</h3>
+                        <p>
+                            Through the curriculum and the work of our staff, we focus on key aspects of our
+                            faith, so that our students...
+                        </p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'faith']) }}" class="btn btn-primary">Read
+                                more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services text-center d-block">
+                    <div class="icon"><span class="flaticon-compass-symbol"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">EXCELLENCE</h3>
+                        <p>
+                            Quality, excellence and high standards underpin the Hejaz philosophy. We promote
+                            these values...
+                        </p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'excellence']) }}"
+                                class="btn btn-primary">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+                <div class="media block-6 services text-center d-block">
+                    <div class="icon"><span class="flaticon-layers"></span></div>
+                    <div class="media-body">
+                        <h3 class="heading mb-3">SERVICE</h3>
+                        <p>Staff and students at Hejaz understand the nature and complexity of today’s society ...</p>
+                        <p><a href="{{ route('site.page.show' , ['page' => 'service']) }}" class="btn btn-primary">Read
+                                more</a></p>
                     </div>
                 </div>
             </div>
@@ -67,9 +110,9 @@
     </div>
 </section>
 
-<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about">
-    <div class="container">
-        <div class="row d-flex">
+<section class="ftco-counter  img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about">
+    <div class="container ">
+        <div class="row d-flex  ">
             <div class="col-md-6 col-lg-4 d-flex">
                 <div class="img d-flex align-self-stretch align-items-center"
                     style="background-image:url({{ asset('site/images/about.jpg') }});">
@@ -287,7 +330,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Architect</span>
+                <span class="subheading">Our Students</span>
                 <h2 class="mb-4">Behind those Beautiful Works</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             </div>
@@ -765,19 +808,6 @@
             <div class="col-md-7 heading-section text-center ftco-animate">
                 <span class="subheading">Contact</span>
                 <h2 class="mb-4">Contact Us</h2>
-                <p>
-                    <address>
-                        <span class="addressdetails_companyprofile">Building: </span>Al Hejaz
-                        International School Building<br><span class="addressdetails_companyprofile">Street:
-                        </span>Sabreen
-                        Street<br><span class="addressdetails_companyprofile">Area: </span>Al
-                        Aziziyah Area<br><span class="addressdetails_companyprofile">P.O. Box:
-                        </span>4100<br><span class="addressdetails_companyprofile">Country:
-                        </span>Saudi Arabia<br><span class="addressdetails_companyprofile"> City:
-                        </span>Jeddah<br><span class="addressdetails_companyprofile">City Suffix:
-                        </span>21491
-                    </address>
-                </p>
             </div>
         </div>
         <div class="row no-gutters block-9">
@@ -845,7 +875,9 @@
                         <span class="icon-map-signs"></span>
                     </div>
                     <h3 class="mb-4">Address</h3>
-                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <p>
+                        Saudi Arabia,Jeddah,Al Aziziyah Area,Sabreen Street,Al Hejaz International School Building
+                    </p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex">
@@ -854,7 +886,7 @@
                         <span class="icon-phone2"></span>
                     </div>
                     <h3 class="mb-4">Contact Number</h3>
-                    <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    <p><a href="tel:+966-12-6171000">+966-12-6171000</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex">
@@ -863,7 +895,7 @@
                         <span class="icon-paper-plane"></span>
                     </div>
                     <h3 class="mb-4">Email Address</h3>
-                    <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                    <p><a href="mailto:admin@alhejazschool.org">admin@alhejazschool.orgm</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex">
@@ -872,7 +904,7 @@
                         <span class="icon-globe"></span>
                     </div>
                     <h3 class="mb-4">Website</h3>
-                    <p><a href="#">yoursite.com</a></p>
+                    <p><a href="https://alhejazschool.org/">alhejazschool.org</a></p>
                 </div>
             </div>
         </div>

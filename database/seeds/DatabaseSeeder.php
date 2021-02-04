@@ -16,9 +16,13 @@ class DatabaseSeeder extends Seeder
         // $this->call(UserSeeder::class);
         User::create([
             'name' => 'Admin',
-            'email' => 'elsayed851999@std.mans.edu.eg',
+            'email' => 'admin@@alhejazschool.org',
             'password' => Hash::make("password"),
             'email_verified_at' => now()
+        ]);
+
+        $this->call([
+            PageSeeder::class
         ]);
     }
 }

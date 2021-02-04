@@ -11,6 +11,7 @@ Route::group(['as' => 'site.', 'namespace' => 'Site'], function () {
         Route::get('/', "ContactUsController@index")->name('index');
         Route::post('/', "ContactUsController@send")->name('send');
     });
+    Route::get("/p/{page:slug}", "PageController@show")->name('page.show');
 });
 
 
