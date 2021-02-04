@@ -203,6 +203,7 @@
         title: '{{ session("failed") }}'
     })
     @endif
+    </script>
 </body>
 
 </html>
