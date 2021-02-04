@@ -1,7 +1,8 @@
 @extends('site.layout.main')
 @section('title' , $page->title)
 @section('main')
-<section class="hero-wrap hero-wrap-2" style="background-image: url('{{ asset('site/assets/cover.png') }}');background-position: 50% 28%">
+<section class="hero-wrap hero-wrap-2"
+    style="background-image: url('{{ asset($page->cover_image ?? 'site/assets/cover.png') }}');background-position: 50% 28%">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">

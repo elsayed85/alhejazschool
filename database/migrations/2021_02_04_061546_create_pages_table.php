@@ -18,6 +18,7 @@ class CreatePagesTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('body');
+            $table->string('cover_image')->nullable();
             $table->timestamps();
         });
     }

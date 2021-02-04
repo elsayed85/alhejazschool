@@ -14,17 +14,20 @@ class PageSeeder extends Seeder
     {
         Page::create([
             'title' => 'OUR MISSION',
-            'body' => 'To be the leading English speaking International School in Jeddah by promoting a culture of educational excellence from within a caring and secure Islamic environment, enriched with the values of discipline, mutual care and respect, which extends beyond the school into the wider community.'
+            'body' => 'To be the leading English speaking International School in Jeddah by promoting a culture of educational excellence from within a caring and secure Islamic environment, enriched with the values of discipline, mutual care and respect, which extends beyond the school into the wider community.',
+            'cover_image' => "mission.png"
         ]);
 
         Page::create([
             'title' => 'OUR VISION',
-            'body' => 'To create an inspirational lifelong learning campus with effective interaction that guarantees a high standard of education within a stimulating atmosphere that enhances students’ recreational abilities.'
+            'body' => 'To create an inspirational lifelong learning campus with effective interaction that guarantees a high standard of education within a stimulating atmosphere that enhances students’ recreational abilities.',
+            'cover_image' => "vision.png"
         ]);
 
         Page::create([
             'title' => 'OUR ETHOS',
-            'body' => 'Our ethos is defined by Faith, Excellence and Service.'
+            'body' => 'Our ethos is defined by Faith, Excellence and Service.',
+            'cover_image' => "ethos.png"
         ]);
 
 
@@ -42,7 +45,8 @@ class PageSeeder extends Seeder
     ourselves<br>
     A focus on character development<br>
     An environmental responsibility<br>
-        </p>'
+        </p>',
+            'cover_image' => "faith.png"
         ]);
 
         Page::create([
@@ -60,7 +64,8 @@ Healthy competition – a competitive environment that permeates the life and
 conduct of the school<br>
 Ambition for our students – to continue to study in Saudi Arabia and overseas, go to
 university or pursue a career that is worthy of their talents, beliefs and interests
-        </p>'
+        </p>',
+            'cover_image' => "excellence.png"
         ]);
 
         Page::create([
@@ -85,7 +90,8 @@ in which they live, study and work.
 Hejaz is driven by the same belief in setting the highest standards in every aspect of school life to
 help its pupils attain educational excellence, career success and determination to contribute to the
 greater good in the local, national and global community.
-        </p>'
+        </p>',
+            'cover_image' => "service.png"
         ]);
     }
 }
