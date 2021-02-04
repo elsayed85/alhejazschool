@@ -2,6 +2,7 @@
 
 use App\Mail\TestMail;
 use App\User;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,8 @@ Route::group(['as' => 'site.', 'namespace' => 'Site'], function () {
 Auth::routes(['register' => false]);
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('test', function () {
+    Artisan::call("storage:link");
+});
