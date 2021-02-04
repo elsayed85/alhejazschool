@@ -9,7 +9,7 @@ return [
     /*
      * Set the password used for the authentication process.
      */
-    'password' => env('BLOCKADE_PASSWORD', null),
+    'password' => env('BLOCKADE_PASSWORD', 'test123'),
 
     /*
      * Define which routes should be excluded for blockade check.
