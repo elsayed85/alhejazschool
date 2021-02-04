@@ -19,8 +19,3 @@ Route::group(['as' => 'site.', 'namespace' => 'Site'], function () {
 Auth::routes(['register' => false]);
 
 // Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::get('test', function () {
-    Artisan::call("storage:link");
-});
