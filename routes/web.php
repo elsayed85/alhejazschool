@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'contact-us', 'as' => 'contact_us.'], function () {
+    Route::get('/', "ContactUsController@index")->name('index');
+    Route::post('/', "ContactUsController@send")->name('send');
+});
