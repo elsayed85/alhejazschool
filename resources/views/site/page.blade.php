@@ -2,7 +2,7 @@
 @section('title' , $page->title)
 @section('main')
 <section class="hero-wrap hero-wrap-2"
-    style="background-image: url('{{ asset($page->cover_image ?? 'site/assets/cover.png') }}');background-position: 50% 28%">
+    style="background-image: url('{{ asset($page->getAttributes()["cover_image"] ?? 'site/assets/cover.png') }}');background-position: 50% 28%">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -11,8 +11,7 @@
                 <p class="breadcrumbs">
                     <span class="mr-2"><a href="{{ route('site.home') }}">Home <i
                                 class="ion-ios-arrow-forward"></i></a></span>
-                    <span class="mr-2"><a href="#">Pages <i class="ion-ios-arrow-forward"></i></a></span>
-                    <span>{{ $page->title }} <i class="ion-ios-arrow-forward"></i></span>
+                    <span>{{ $page->title }} </span>
                 </p>
             </div>
         </div>

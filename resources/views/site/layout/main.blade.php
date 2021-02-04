@@ -40,17 +40,31 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a href="#" class="nav-link" data-nav-section="home"><span>Home</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-nav-section="about"><span>About</span></a>
+                    <li class="nav-item"><a href="#" class="nav-link"
+                        @if(\Request::route()->getName() == 'site.home') data-nav-section="home"
+                        @else onclick="location.replace('{{ route('site.home') }}')"
+                        @endif>
+                        <span>Home</span></a></li>
+                    <li class="nav-item"><a href="{{ route('site.page.show' , ['page' => 'about']) }}"
+                            onclick="location.replace('{{ route('site.page.show' , ['page' => 'about']) }}')"
+                            class="nav-link"><span>About</span></a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link"
-                            data-nav-section="projects"><span>Projects</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-nav-section="team"><span>Team</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"
-                            data-nav-section="testimony"><span>Testimony</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-nav-section="blog"><span>Blog</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"
-                            data-nav-section="contact"><span>Contact</span></a></li>
+                    <li class="nav-item">
+                        <a href="{{ route('site.page.show' , ['page' => 'boys']) }}"
+                            onclick="location.replace('{{ route('site.page.show' , ['page' => 'boys']) }}')"
+                            class="nav-link"><span>Boys
+                                Section</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('site.page.show' , ['page' => 'girls']) }}"
+                            onclick="location.replace('{{ route('site.page.show' , ['page' => 'girls']) }}')"
+                            class="nav-link"><span>Girls Section</span></a></li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"
+                            @if(\Request::route()->getName() == 'site.home') data-nav-section="contact" @else onclick="location.replace('{{ route('site.contact_us.index') }}')" @endif><span>Contact</span></a>
+                        </li>
                 </ul>
             </div>
         </div>
@@ -64,10 +78,12 @@
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Al-Hejaz International School</h2>
-                        <p style="font-size: 13px">Al Hejaz is an international school based in Jeddah. The School is licensed by
+                        <p style="font-size: 13px">Al Hejaz is an international school based in Jeddah. The School is
+                            licensed by
                             the Saudi Arabian Ministry of Education and delivers a British Curriculum. The language
                             of education within the school is English.</p>
-                        <p style="font-size: 13px">As part of its commitment to support the strengthening of Saudi identity and
+                        <p style="font-size: 13px">As part of its commitment to support the strengthening of Saudi
+                            identity and
                             Islamic ethos, and in keeping with Ministry of Education rules, the school also delivers
                             Arabic, Islamic studies, the History and Geography of the Saudi Kingdom and Quran
                             lessons in the Arabic language.</p>
@@ -77,11 +93,16 @@
                     <div class="ftco-footer-widget mb-4 ml-md-4">
                         <h2 class="ftco-heading-2">Links</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                            <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                            <li><a href="{{ route('site.home') }}"><span
+                                        class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                            <li><a href="{{ route('site.page.show' , ['page' => 'about']) }}"><span
+                                        class="icon-long-arrow-right mr-2"></span>About</a></li>
+                            <li><a href="{{ route('site.page.show' , ['page' => 'boys']) }}"><span
+                                        class="icon-long-arrow-right mr-2"></span>Boys Section</a></li>
+                            <li><a href="{{ route('site.page.show' , ['page' => 'girls']) }}"><span
+                                        class="icon-long-arrow-right mr-2"></span>Girls Section</a></li>
+                            <li><a href="{{ route('site.contact_us.index') }}"><span
+                                        class="icon-long-arrow-right mr-2"></span>Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

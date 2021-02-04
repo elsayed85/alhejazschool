@@ -13,7 +13,7 @@ class ContactUsController extends Controller
 {
     public function index()
     {
-        //
+        return view('site.contact');
     }
 
     public function send(ContactUsRequest $request)

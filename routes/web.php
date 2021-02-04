@@ -13,6 +13,7 @@ Route::group(['as' => 'site.', 'namespace' => 'Site'], function () {
         Route::post('/', "ContactUsController@send")->name('send');
     });
     Route::get("/p/{page:slug}", "PageController@show")->name('page.show');
+
 });
 
 

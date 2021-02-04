@@ -8,14 +8,8 @@
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
             data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-                <p class="d-flex align-items-center" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    <a href="https://vimeo.com/45830194"
-                        class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
-                        <span class="ion-ios-play play mr-2"></span>
-                        <span class="watch">Watch Video</span>
-                    </a>
-                </p>
-                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">World's Best School
+                <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+                    Welcome to Al Hejaz School
                 </h1>
                 <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Al Hejaz International
                     School has a distinctive collegiate structure. Students and academics benefit from belonging both to
@@ -110,101 +104,17 @@
     </div>
 </section>
 
-<section class="ftco-counter  img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about">
+<section class="ftco-counter  img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about" style="background-image: url({{ asset('site/assets/cover2.png') }});background-repeat: no-repeat;background-size: 28%;background-position-y: bottom;background-position-x: right;">
     <div class="container ">
         <div class="row d-flex  ">
-            <div class="col-md-6 col-lg-4 d-flex">
-                <div class="img d-flex align-self-stretch align-items-center"
-                    style="background-image:url({{ asset('site/images/about.jpg') }});">
-                    <div class="request-quote py-5">
-                        <div class="py-2">
-                            <span class="subheading">Be Part of our Business</span>
-                            <h3>Request A Quote</h3>
-                        </div>
-                        <form action="#" class="request-form ftco-animate">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
-                            </div>
-                            <div class="form-group">
-                                <div class="form-field">
-                                    <div class="select-wrap">
-                                        <div class="icon-arr"><span class="ion-ios-arrow-down"></span></div>
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Select Your Services</option>
-                                            <option value="">Construction</option>
-                                            <option value="">Renovation</option>
-                                            <option value="">Interior Design</option>
-                                            <option value="">Exterior Design</option>
-                                            <option value="">Painting</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="" id="" cols="30" rows="2" class="form-control"
-                                    placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="Request A Quote" class="btn btn-secondary py-3 px-4">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-8 pl-lg-5 py-5">
+            <div class="col-lg-12 pl-lg-5 py-5">
                 <div class="row justify-content-start pb-3">
                     <div class="col-md-12 heading-section ftco-animate">
-                        <span class="subheading">Welcome</span>
-                        <h2 class="mb-4">Since we started work in 1980</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                            your mouth.</p>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                            unorthographic life One day however a small line of blind text by the name of Lorem
-                            Ipsum decided to leave for the far World of Grammar.</p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                            your mouth.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate d-flex">
-                        <div class="block-18 text-center p-4 mb-4 align-self-stretch d-flex">
-                            <div class="text">
-                                <strong class="number" data-number="30">0</strong>
-                                <span>Years of experience</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate d-flex">
-                        <div class="block-18 text-center py-4 px-3 mb-4 align-self-stretch d-flex">
-                            <div class="text">
-                                <strong class="number" data-number="1000">0</strong>
-                                <span>Project Done</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate d-flex">
-                        <div class="block-18 text-center py-4 px-3 mb-4 align-self-stretch d-flex">
-                            <div class="text">
-                                <strong class="number" data-number="100">0</strong>
-                                <span>Our Architect</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 justify-content-center counter-wrap ftco-animate d-flex">
-                        <div class="block-18 text-center py-4 px-3 mb-4 align-self-stretch d-flex">
-                            <div class="text">
-                                <strong class="number" data-number="1100">0</strong>
-                                <span>Happy Customers</span>
-                            </div>
-                        </div>
+                        <span class="subheading">Welcome – Chairman</span>
+                        <h2 class="mb-4">2021</h2>
+                        <p>It is a great pleasure to welcome this outstanding group of educators to Al Hejaz International School for the academic year 2021 – 2022.We are optimistic that you will soon feel the sense of pride we share in belonging to this noble educational establishment.&nbsp;</p>
+                        <p>We believe that a great responsibility is laid on you to fortify the image of the school in order to educate a new generation of our school and to offer them the opportunity for a brilliant future. Therefore, we wish you all the best in your mission and we encourage you to exert more effort to achieve our goals in the current developments of the school which will consequently enable us to meet the highest standards of education. Remember, that “to the world you may be just a teacher, but to your students, you are a HERO.&nbsp;</p>
+                        <p>I would personally like to express my deep appreciation for your efforts.&nbsp;</p>
                     </div>
                 </div>
             </div>
@@ -212,597 +122,148 @@
     </div>
 </section>
 
-<section class="ftco-section ftco-project bg-light" data-section="projects">
-    <div class="container-fluid px-md-5">
-        <div class="row justify-content-center pb-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Accomplishments</span>
-                <h2 class="mb-4">Our Projects</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 testimonial">
-                <div class="carousel-project owl-carousel">
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-1.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-1.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-2.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-2.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-3.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-3.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-4.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-4.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-5.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-5.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="project">
-                            <div class="img">
-                                <img src="{{ asset('site/images/project-6.jpg') }}" class="img-fluid"
-                                    alt="test Template">
-                                <a href="{{ asset('site/images/project-6.jpg') }}"
-                                    class="icon image-popup d-flex justify-content-center align-items-center">
-                                    <span class="icon-expand"></span>
-                                </a>
-                            </div>
-                            <div class="text px-4">
-                                <h3><a href="#">Office Interior Design</a></h3>
-                                <span>Interior Design</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="ftco-section" data-section="team">
     <div class="container-fluid p-0">
         <div class="row no-gutters justify-content-center pb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Our Students</span>
-                <h2 class="mb-4">Behind those Beautiful Works</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <span class="subheading">Academic</span>
             </div>
         </div>
         <div class="row no-gutters">
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="col-md-6 col-lg-4 ftco-animate">
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/team-1.jpg') }});"></div>
-                    </div>
-                    <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Lloyd Wilson</h3>
-                            <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Kindergarten (KG1 to KG3)');">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="staff">
-                    <div class="img-wrap d-flex align-items-stretch">
-                        <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/team-2.jpg') }});"></div>
-                    </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Rachel Parker</h3>
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Kindergarten (KG1 to KG3)</h3>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="staff">
-                    <div class="img-wrap d-flex align-items-stretch">
-                        <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/team-3.jpg') }});"></div>
-                    </div>
-                    <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Ian Smith</h3>
-                            <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="staff">
-                    <div class="img-wrap d-flex align-items-stretch">
-                        <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/team-4.jpg') }});"></div>
-                    </div>
-                    <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Alicia Henderson</h3>
-                            <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
+                                <p>The education of our youngest learners is vitally important; it lays the foundation
+                                    ...</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'kindergarten-kg1-to-kg3']) }}"
+                                    class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="col-md-6 col-lg-4 ftco-animate">
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/staff-1.jpg') }});">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Primary School (G1 to G3)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Lloyd Wilson</h3>
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Primary School (G1 to G3)</h3>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
+                                <p>In the Primary School boys and girls are taught in separate classes.</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'primary-school-g1-to-g3']) }}"
+                                    class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+
+
+            <div class="col-md-6 col-lg-4 ftco-animate">
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/staff-2.jpg') }});">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Middle School (G4 to G8)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Rachel Parker</h3>
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Boys Middle School (G4 to G8)</h3>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
+                                <p>In G4 to G8 boys are taught in a separate section of the building</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'boys-middle-school-g4-to-g8']) }}"
+                                    class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+
+
+            <div class="col-md-6 col-lg-4 ftco-animate">
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/staff-3.jpg') }});">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Girls Middle School (G4 to G8)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Ian Smith</h3>
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Girls Middle School (G4 to G8)</h3>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
+                                <p>In G4 to G8 girls are taught in a separate section of the building</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'girls-middle-school-g4-to-g8']) }}"
+                                    class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+
+
+            <div class="col-md-6 col-lg-4 ftco-animate">
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url({{ asset('site/images/staff-4.jpg') }});">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Upper School (G9 to G10)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
-                        <div>
-                            <span class="position mb-2">Architect</span>
-                            <h3 class="mb-4">Alicia Henderson</h3>
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Boys Upper School (G9 to G10)</h3>
                             <div class="faded">
-                                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-                                <ul class="ftco-social text-center">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a>
-                                    </li>
-                                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a>
-                                    </li>
-                                </ul>
+                                <p>In G9 to G10 boys are taught in a separate section of the building</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'boys-upper-school-g9-to-g10']) }}"
+                                    class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-md-6 col-lg-4 ftco-animate">
+                <div class="staff">
+                    <div class="img-wrap d-flex align-items-stretch">
+                        <div class="img align-self-stretch"
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Girls Upper School (G9 to G10)');">
+                        </div>
+                    </div>
+                    <div class="text d-flex align-items-center pt-3 text-center">
+                        <div style="width: 100%">
+                            <h3 class="mb-4">Girls Upper School (G9 to G10)</h3>
+                            <div class="faded">
+                                <p>The students in G9 and G10 are prepared thoroughly and we build on the information
+                                    gathered from G6</p>
+                                <a href="{{ route('site.page.show' , ['page' => 'girls-upper-school-g9-to-g10']) }}"
+                                    class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
 
 
-<section class="testimony-section" data-section="testimony">
-    <div class="container">
-        <div class="row ftco-animate justify-content-center">
-            <div class="col-md-12 d-flex align-items-center">
-                <div class="carousel-testimony owl-carousel">
-                    <div class="item">
-                        <div class="testimony-wrap d-flex align-items-stretch">
-                            <div class="user-img d-flex align-self-stretch"
-                                style="background-image: url({{ asset('site/images/testimony-1.jpg') }})">
-                            </div>
-                            <div class="text d-flex align-items-center">
-                                <div>
-                                    <div class="icon-quote">
-                                        <span class="icon-quote-left"></span>
-                                    </div>
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts. A small river named
-                                        Duden flows by their place and supplies it with the necessary regelialia. It
-                                        is a paradisematic country, in which roasted parts of sentences fly into
-                                        your mouth.</p>
-                                    <p class="name">Jacob Bolton</p>
-                                    <span class="position">CEO, Founder</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimony-wrap d-flex align-items-stretch">
-                            <div class="user-img d-flex align-self-stretch"
-                                style="background-image: url({{ asset('site/images/testimony-2.jpg') }})">
-                            </div>
-                            <div class="text d-flex align-items-center">
-                                <div>
-                                    <div class="icon-quote">
-                                        <span class="icon-quote-left"></span>
-                                    </div>
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
-                                        Vokalia and Consonantia, there live the blind texts. A small river named
-                                        Duden flows by their place and supplies it with the necessary regelialia. It
-                                        is a paradisematic country, in which roasted parts of sentences fly into
-                                        your mouth.</p>
-                                    <p class="name">Jacob Bolton</p>
-                                    <span class="position">CEO, Founder</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section class="ftco-section bg-light" data-section="blog">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <span class="subheading">Blog</span>
-                <h2 class="mb-4">Read Our Stories</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-            </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry justify-content-end">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_1.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">12</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry justify-content-end">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_2.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">10</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_3.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">05</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry justify-content-end">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_4.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">12</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry justify-content-end">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_5.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">10</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry">
-                    <a href="single.html" class="block-20"
-                        style="background-image: url('{{ asset('site/images/image_6.jpg') }}');">
-                    </a>
-                    <div class="text mt-3 float-right d-block">
-                        <div class="d-flex align-items-center pt-2 mb-4 topp">
-                            <div class="one mr-3">
-                                <span class="day">05</span>
-                            </div>
-                            <div class="two">
-                                <span class="yr">2019</span>
-                                <span class="mos">March</span>
-                            </div>
-                        </div>
-                        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a>
-                        </h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary
-                            regelialia.</p>
-                        <div class="d-flex align-items-center mt-4 meta">
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Read More <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
-                            <p class="ml-auto mb-0">
-                                <a href="#" class="mr-2">Admin</a>
-                                <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="ftco-section contact-section ftco-no-pb" data-section="contact" id="contact-section">
+<section class="ftco-section contact-section ftco-no-pb" data-section="contact" id="contact-section" >
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -855,7 +316,6 @@
                         <input type="submit" value="Send Message" class="btn btn-secondary py-3 px-5">
                     </div>
                 </form>
-
             </div>
 
             <div class="col-md-6 d-flex">
