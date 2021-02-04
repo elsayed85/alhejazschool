@@ -26,6 +26,6 @@ class Page extends Model
 
     public function getCoverImageAttribute($value)
     {
-        return "storage/page_assets" . $value;
+        return "storage/page_assets/" . $value;
     }
 }
