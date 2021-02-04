@@ -44,7 +44,7 @@ class ContactUsNotification extends Notification implements ShouldQueue
     {
         return (new MailMessage)
             ->subject($this->contactUsMessage->subject)
-            ->from($this->contactUsMessage->email, $this->contactUsMessage->name)
+            //->from($this->contactUsMessage->email, $this->contactUsMessage->name)
             ->line($this->contactUsMessage->msg)
             ->line('this message sended from ' . $this->contactUsMessage->name);
     }
