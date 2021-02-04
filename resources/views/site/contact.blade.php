@@ -12,8 +12,7 @@
                 <p class="breadcrumbs">
                     <span class="mr-2"><a href="{{ route('site.home') }}">Home <i
                                 class="ion-ios-arrow-forward"></i></a></span>
-                    <span class="mr-2"><a href="#">Pages <i class="ion-ios-arrow-forward"></i></a></span>
-                    <span>Contact Us <i class="ion-ios-arrow-forward"></i></span>
+                    <span>Contact Us</span>
                 </p>
             </div>
         </div>
