@@ -9,7 +9,7 @@
             data-scrollax-parent="true">
             <div class="col-md-8 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
                 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-                    Welcome to Al Hejaz School
+                    Welcome to Al Hejaz International School
                 </h1>
                 <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Al Hejaz International
                     School has a distinctive collegiate structure. Students and academics benefit from belonging both to
@@ -355,7 +355,7 @@
                         <span class="icon-paper-plane"></span>
                     </div>
                     <h3 class="mb-4">Email Address</h3>
-                    <p><a href="mailto:admin@alhejazschool.org">admin@alhejazschool.orgm</a></p>
+                    <p><a href="mailto:admin@alhejazschool.org">admin@alhejazschool.org</a></p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 d-flex">

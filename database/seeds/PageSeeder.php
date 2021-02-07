@@ -380,9 +380,9 @@ greater good in the local, national and global community.
         ]);
 
         Page::create([
-            'title' => 'Boys Middle School (G4 to G8)',
+            'title' => 'Boys Middle School (G4 to G9)',
             'slug' => 'boys-middle-school-g4-to-g8',
-            'body' => '<p>In G4 to G8 boys are taught in a separate section of the building. The middle school curriculum is designed to further develop key skills whilst gradually moving to more specialised subject learning and with a greater emphasis on acquiring subject-specific knowledge and skills. From Grade 7 they progress from Science to the separate sciences: Physics, Chemistry and Biology. The students are regularly assessed and provided with detailed feedback that enables them to further improve their learning in each subject. By Grade 8 students begin being taught the specific knowledge and skills they will need for their IGCSE courses.</p>
+            'body' => '<p>In G4 to G9 boys are taught in a separate section of the building. The middle school curriculum is designed to further develop key skills whilst gradually moving to more specialised subject learning and with a greater emphasis on acquiring subject-specific knowledge and skills. From Grade 7 they progress from Science to the separate sciences: Physics, Chemistry and Biology. The students are regularly assessed and provided with detailed feedback that enables them to further improve their learning in each subject. By Grade 8 students begin being taught the specific knowledge and skills they will need for their IGCSE courses.</p>
 
 
 
@@ -394,7 +394,7 @@ greater good in the local, national and global community.
         ]);
 
         Page::create([
-            'title' => 'Girls Middle School (G4 to G8)',
+            'title' => 'Girls Middle School (G4 to G9)',
             'slug' => 'girls-middle-school-g4-to-g8',
             'body' => '<p>In G4 to G8 girls are taught in a separate section of the building. The middle school curriculum is designed to further develop key skills whilst gradually moving to more specialised subject learning and with a greater emphasis on acquiring subject-specific knowledge and skills. From Grade 7 they progress from Science to the separate sciences: Physics, Chemistry and Biology. The students are regularly assessed and provided with detailed feedback that enables them to further improve their learning in each subject. By Grade 8 students begin being taught the specific knowledge and skills they will need for their IGCSE courses.</p>
 
@@ -409,7 +409,7 @@ greater good in the local, national and global community.
 
 
         Page::create([
-            'title' => 'Boys Upper School (G9 to G10)',
+            'title' => 'Boys Upper School (G9 to G9)',
             'slug' => 'boys-upper-school-g9-to-g10',
             'body' => '<p>In G9 to G10 boys are taught in a separate section of the building. The boys continue to build on the knowledge and skills they developed in the middle school whilst focusing on the development of a high level of specialist knowledge and understanding in all their subjects. Increasingly, the curriculum will require the students to learn, understand and apply new knowledge and incorporate this into their understanding of the real world. Each subject area will require them to develop a deep and thorough understanding of key ideas and concepts, and be able to use these to solve real-life problems and articulate these confidently in English.<br> <br>Teachers will support students through this challenging phase with regular assessments using IGCSE-level questions for homework and school-based assessments.<br><br>The curriculum comprises:</p>
 
@@ -424,7 +424,7 @@ greater good in the local, national and global community.
 
 
         Page::create([
-            'title' => 'Girls Upper School (G9 to G10)',
+            'title' => 'Girls Upper School (G9 to G19)',
             'slug' => 'girls-upper-school-g9-to-g10',
             'body' => '
             <ul><li>English (IGCSE)</li><li>Maths (IGCSE)</li><li>Science (IGCSE)</li><li>Physics (IGCSE)</li><li>Chemistry (IGCSE)</li><li>Biology (IGCSE)</li><li>ICT (IGCSE)</li><li>*Arabic (IGCSE)</li><li>*Islamic Studies including Quran</li><li>*History &amp; Geography of Saudi Kingdom</li><li>Activities in PE, Sport &amp; curricular activities</li></ul>
