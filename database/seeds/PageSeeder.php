@@ -14,13 +14,31 @@ class PageSeeder extends Seeder
     {
         Page::create([
             'title' => 'OUR MISSION',
-            'body' => 'To meet the needs of our learners that will lead to educational excellence within Islamic core values of life, tolerance and respect of tradition of diverse community.',
+            'body' => '<p class="CxSpFirst" style="margin-left: 48px; text-align: center;"><b><span style="font-size:14.0pt"><span style="line-height:115%">Mission</span></span></b>
+            </p>
+            <p class="CxSpMiddle" style="margin-left: 48px; text-align: center;"><span style="line-height:200%"><b><span style="font-size:16.0pt"><span style="line-height:200%">To meet the needs of our learners that will lead to educational excellence within Islamic core values of life, tolerance and respect of tradition of diverse community</span></span></b><span style="font-size:16.0pt"><span style="line-height:200%">.</span></span></span>
+            </p>
+            <p style="margin-bottom: 13px; text-align: center;"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span dir="RTL" lang="AR-SA" style="font-size:16.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">تلبية احتياجات المتعلمين و التي سوف تؤدي الى الامتياز في تعلم اطار القيم الاسلامية و التسامح و احترام </span></span></span><span style="font-size:16.0pt"><span style="line-height:115%">.</span></span><span dir="RTL" lang="AR-SA" style="font-size:16.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">الثقافات المختلفة في المجتمع</span></span></span></span></span></span>
+            </p>
+            <p style="text-align: center;">&nbsp;
+            </p>
+            ',
             'cover_image' => "mission.png"
         ]);
 
         Page::create([
             'title' => 'OUR VISION',
-            'body' => 'To build a learning generation, powered by the 21st Century skills that are enriched with innovation, responsibility and collaboration.',
+            'body' => '<p class="CxSpFirst" style="margin-left: 48px; text-align: center;"><b><span style="font-size:14.0pt"><span style="line-height:115%">Vision</span></span></b>
+            </p>
+            <p style="margin-bottom: 13px; text-align: center;"><span style="font-size:11pt"><span style="line-height:200%"><span style="font-family:Calibri,sans-serif"><b><span style="font-size:16.0pt"><span style="line-height:200%">To build a learning generation, powered by the 21<sup>st</sup> Century skills that are enriched with innovation, responsibility and collaboration.</span></span></b></span></span></span>
+            </p>
+            <p style="margin-bottom: 13px; text-align: center;"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span dir="RTL" lang="AR-SA" style="font-size:16.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">بناء جيل متعلم مسلح بمهارات القرن الواحد والعشرين</span></span></span></span></span></span>
+            </p>
+            <p dir="RTL" style="margin-right: 48px; margin-bottom: 13px; text-align: center;"><span style="font-size:11pt"><span style="direction:rtl"><span style="unicode-bidi:embed"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="AR-SA" style="font-size:16.0pt"><span style="line-height:115%"><span style="font-family:&quot;Arial&quot;,sans-serif">قادر على الابداع و تحمل المسؤلية و التعاون</span></span></span><span dir="LTR" style="font-size:16.0pt"><span style="line-height:115%">.</span></span></span></span></span></span></span>
+            </p>
+            <p style="text-align: center;">&nbsp;
+            </p>
+            ',
             'cover_image' => "vision.png"
         ]);
 
