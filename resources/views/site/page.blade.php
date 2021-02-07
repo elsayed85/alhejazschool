@@ -2,7 +2,7 @@
 @section('title' , $page->title)
 @section('main')
 <section class="hero-wrap hero-wrap-2"
-    style="background-image: url('{{ asset($page->getAttributes()["cover_image"] ?? 'site/assets/cover.png') }}');background-position: 50% 28%">
+    style="background-image: url('{{ asset($page->getAttributes()["cover_image"] ? $page->cover_image :  'site/assets/cover.png') }}');background-position: 50% 28%">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
