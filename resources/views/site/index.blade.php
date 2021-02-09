@@ -177,12 +177,12 @@
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Middle School (G4 to G8)');">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Middle School (G4 to G9)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
                         <div style="width: 100%">
-                            <h3 class="mb-4">Boys Middle School (G4 to G8)</h3>
+                            <h3 class="mb-4">Boys Middle School (G4 to G9)</h3>
                             <div class="faded">
                                 <p>In G4 to G8 boys are taught in a separate section of the building</p>
                                 <a href="{{ route('site.page.show' , ['page' => 'boys-middle-school-g4-to-g8']) }}"

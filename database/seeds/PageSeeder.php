@@ -459,5 +459,326 @@ greater good in the local, national and global community.
 
             <p>*As part of its commitment to support the strengthening of Saudi identity and Islamic ethos, and in keeping with Ministry of Education rules, the school delivers Arabic, the History and Geography of the Saudi Kingdom, and Islamic Studies, including Quran lessons, in the Arabic language.</p>'
         ]);
+
+        Page::create([
+            'title' => "Mission, Vision and Ethos",
+            'slug' => "mission-vision-and-ethos",
+            'body' => '<div class="entry-content">
+            <h2>Our Mission</h2>
+    <p align="center">To be the leading English speaking International School in Jeddah by promoting a culture of educational excellence from within a caring and secure Islamic environment, enriched with the values of discipline, mutual care and respect, which extends beyond the school into the wider community.</p>
+    <h2></h2>
+    <h2>Our Vision</h2>
+    <p style="text-align:center;">To create an inspirational lifelong learning campus with effective interaction that guarantees a high standard of education within a stimulating atmosphere that enhances students’ recreational abilities.</p>
+    <p style="text-align:center;">
+    </p><h2 style="text-align:left;">Our Ethos</h2>
+    <p style="text-align:center;">Our ethos is defined by Faith, Excellence and Service.</p>
+    <h3>Faith</h3>
+    <p>Through the curriculum and the work of our staff, we focus on key aspects of our faith, so that our students can understand how they relate to their everyday lives. We promote:</p>
+    <ul>
+    <li>A wholesome and inclusive identity</li>
+    <li>A national and global identity</li>
+    <li>A faith identity and a wider spiritual identity that connects the whole world</li>
+    <li>A healthy body and mind</li>
+    <li>A belief that we are all part of, and are contributing to,&nbsp;something far greater than ourselves</li>
+    <li>A focus on character development</li>
+    <li>An environmental responsibility<strong>&nbsp;</strong></li>
+    </ul>
+    <h3>Excellence</h3>
+    <p>Quality, excellence and high standards underpin the Hejaz philosophy. We promote these values in everything our students do, from the presentation of work in an exercise book to a piece of complex-level coursework. Staff at Hejaz are expected to model these behaviours too. In short, ‘If a job’s worth doing, it’s worth doing well’. We promote:</p>
+    <ul>
+    <li>High aspirations – <em>we celebrate success at every opportunity</em></li>
+    <li>Personalised excellence – <em>a passionate belief that each individual is unique and special – our job is to nurture this talent</em></li>
+    <li>Healthy competition – <em>a competitive environment that permeates the life and conduct of the school</em></li>
+    <li>Ambition for our students – <em>to continue to study in Saudi Arabia and overseas, go to university or pursue a career that is worthy of their talents, beliefs and interests</em></li>
+    </ul>
+    <h3>Service</h3>
+    <p>Staff and students at Hejaz understand the nature and complexity of today’s society, and the contribution that each individual must make to sustain a healthy, positive and creative Saudi nation that can face the challenges of the 21st century with confidence. We all have our part to play.</p>
+    <p>At Hejaz we aim to instill a love of learning, a thorough understanding of the curriculum and a personal commitment to community service, civic pride and charitable giving in each and every one of our students.</p>
+    <p>Our aim is to create an outstanding learning community that inspires learners with excellence in academic achievement, personal development and service to the local and global community. We want to provide a place for children and young people to develop as future leaders and active global citizens, and to contribute locally, nationally and internationally.</p>
+    <p>Our goal is to develop children and young people of the highest intellectual calibre who are able to contribute morally, spiritually, socially, economically and politically to the societies and communities in which they live, study and work.</p>
+    <p>Hejaz is driven by the same belief in setting the highest standards in every aspect of school life to help its pupils attain educational excellence, career success and determination to contribute to the greater good in the local, national and global community.</p>
+    <div id="atatags-370373-60226a7c0ab90">
+        </div></div>'
+        ]);
+
+        Page::create([
+            'title' => 'Welcome From The Chairman',
+            'slug' => 'welcome-from-the-chairman',
+            'body' => '<div class="entry-content">
+            <h2><img data-attachment-id="1189" data-permalink="https://alhejazsite.wordpress.com/dr_abddallah/" data-orig-file="https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg" data-orig-size="1245,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="dr_abddallah" data-image-description="" data-medium-file="https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=300" data-large-file="https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=1024" class="alignnone size-full wp-image-1189" src="https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=1080" alt="dr_abddallah" srcset="https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=1080 1080w, https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=150 150w, https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=300 300w, https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=768 768w, https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg?w=1024 1024w, https://alhejazsite.files.wordpress.com/2017/02/dr_abddallah.jpg 1245w" sizes="(max-width: 1080px) 100vw, 1080px">Assalamu Alaikum!</h2>
+    <p style="text-align:justify;">It is a great pleasure to welcome this outstanding group of educators to Al Hejaz International School for the academic year 2020 - 2021.We are optimistic that you will soon feel the sense of pride we share in belonging to this noble educational establishment.</p>
+    <p style="text-align:justify;">We believe that a great responsibility is laid on you to fortify the image of the school in order to educate a new generation of our school and to offer them the opportunity for a brilliant future. Therefore, we wish you all the best in your mission and we encourage you to exert more effort to achieve our goals in the current developments of the school which will consequently enable us to meet the highest standards of education. Remember, that “to the world you may be just a teacher, but to your students, you are a HERO.<br>
+    I would personally like to express my deep appreciation for your efforts.</p>
+    <p>Chairman of the board<br>
+    Mazed ALotibi</p>
+    <div id="atatags-370373-60226afbb4e64">
+
+        </div></div>'
+        ]);
+        Page::create([
+            'title' => 'Welcome From The Principal',
+            'slug' => 'welcome-from-the-principal',
+            'body' => '<div class="entry-content">
+            <h2>Assalamu Alaikum!</h2>
+    <p><img class="aligncenter size-full wp-image-46" src="https://alhejazsite.files.wordpress.com/2013/07/bukhaaree.jpg?w=1080" alt="bukhaaree"></p>
+    <p><img data-attachment-id="1011" data-permalink="https://alhejazsite.wordpress.com/his/welcome-from-the-principal/sameer/" data-orig-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg" data-orig-size="5184,1608" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5.6&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 1200D&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1480189413&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;24&quot;,&quot;iso&quot;:&quot;3200&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="sameer" data-image-description="" data-medium-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=300" data-large-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1024" class="alignnone size-full wp-image-1011" src="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1080" alt="sameer" srcset="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1080 1080w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=2160 2160w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=150 150w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=300 300w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=768 768w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px"></p>
+    <blockquote><p>Indeed actions are by intention and every man shall have that which he intended.</p></blockquote>
+    <p style="text-align:justify;">At the beginning of a new academic year, I would like to express my warm welcome to all the staff of Al Hejaz International School.</p>
+    <p style="text-align:justify;">It is my fervent hope that you will exert more efforts in what promises to be an interesting and stimulating new learning atmosphere in our school this concurrent year with the continuing academic accreditation process. I am absolutely confident that you will introduce a high standard of education that reflects your educational experiences. This I believe will be compatible to the prerequisites of this era, in harmony with our educational mission accompanied by its Islamic features and international standards towards a better education.<br>
+    I wish you success and may Allah bless you.</p>
+    <p style="text-align:justify;">General Manager<br>
+    Mr. Sameer Ben Ahmed Al Hakim</p>
+    <p style="text-align:justify;">
+    </p></div>'
+        ]);
+        Page::create([
+            'title' => 'School’s General Calendar',
+            'slug' => 'schools-general-calendar',
+            'body' => ''
+        ]);
+        Page::create([
+            'title' => 'student handbook',
+            'slug' => 'student-handbook',
+            'body' => '<p><a href="https://drive.google.com/open?id=0B0Bj3M5jxY6OSEp6VGRoM2VOYmM">CLICK HERE to view and download our Student Handbook.</a></p>'
+        ]);
+        Page::create([
+            'title' => 'Annual School Fees for 2020-2021',
+            'slug' => 'annual-school-fees-for-2020-2021',
+            'body' => '<div class="entry-content">
+            <p>&nbsp;</p>
+    <table style="border-collapse:collapse;width:530px;height:382px;" border="0" width="288" cellspacing="0" cellpadding="0">
+    <colgroup>
+    <col style="width:54pt;" span="4" width="72"> </colgroup>
+    <tbody>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;width:54pt;" width="72" height="19">Grade</td>
+    <td class="xl66" style="border-left:none;width:54pt;" width="72">No Discount</td>
+    <td class="xl65" style="border-left:none;width:54pt;" width="72">With Discount</td>
+    <td class="xl66" style="border-left:none;width:54pt;" width="72">Total</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;width:54pt;" width="72" height="19">KG-1</td>
+    <td class="xl66" style="border-left:none;width:54pt;" width="72">11,500</td>
+    <td class="xl65" style="border-left:none;width:54pt;" width="72">2000</td>
+    <td class="xl66" style="border-left:none;width:54pt;" width="72">13,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">KG-2</td>
+    <td class="xl66" style="border-top:none;border-left:none;">12,000</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">14,000</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">KG-3</td>
+    <td class="xl66" style="border-top:none;border-left:none;">12,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">14,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR1</td>
+    <td class="xl66" style="border-top:none;border-left:none;">13,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">15,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR2</td>
+    <td class="xl66" style="border-top:none;border-left:none;">13,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">15,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR3</td>
+    <td class="xl66" style="border-top:none;border-left:none;">13,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">15,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR4</td>
+    <td class="xl66" style="border-top:none;border-left:none;">14,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">16,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR5</td>
+    <td class="xl66" style="border-top:none;border-left:none;">14,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">16,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR6</td>
+    <td class="xl66" style="border-top:none;border-left:none;">14,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">16,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR7</td>
+    <td class="xl66" style="border-top:none;border-left:none;">15,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">17,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR8</td>
+    <td class="xl66" style="border-top:none;border-left:none;">15,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">17,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR9</td>
+    <td class="xl66" style="border-top:none;border-left:none;">16,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">18,500</td>
+    </tr>
+    <tr style="height:14.25pt;">
+    <td class="xl65" style="height:14.25pt;border-top:none;" height="19">GR10</td>
+    <td class="xl66" style="border-top:none;border-left:none;">17,500</td>
+    <td class="xl65" style="border-top:none;border-left:none;">2000</td>
+    <td class="xl66" style="border-top:none;border-left:none;">19,500</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>All registration systems followed the rules of the Ministry of Education which is done through the Nour program by arranging the candidate’s age to align for each stage.</p>
+    <p>KG-1 (3-4) Years<br>
+    KG-2 (4-5) Years<br>
+    KG-3 (5-6) Years</p>
+    <p>Additionally, there are level test done according to the rules of registration of each school.</p>
+    <p>&nbsp;</p>
+    <ol>
+    <li>A 10% discount is granted in case of paying all the fees at the beginning of registration till 10<sup>th</sup> of October 2017.</li>
+    <li>A 10% discount is offered to second child or any other additional child when paying the fees of the first child.</li>
+    <li>The discount does not include book and transportation charges.</li>
+    <li>School fees does not include book and Transportation charges.</li>
+    <li>School uniform and school activities (Fieldtrips) are free.</li>
+    </ol>
+	</div>'
+        ]);
+        Page::create([
+            'title' => 'Recruitment',
+            'slug' => 'application-form',
+            'body' => '<div class="embed-jotform"><iframe width="1080" height="1000" src="//oembed.jotform.com/form/63525574427461" sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation"></iframe></div>'
+        ]);
+        Page::create([
+            'title' => 'About Boys Section',
+            'slug' => 'about-boys-section',
+            'body' => '<div class="entry-content">
+            <h2>Education</h2>
+    <p>Education is principally, the growth of character and mental influences within the frame- work of a definite coordination. Even though this is the common objective underlining education systems, the structure may vary in response to the needs of different societies. The consistency between ends and means is a strategy universally recognized. From this perspective, Al Hejaz International School Boys’ Section, Jeddah (HIS) was created by directive of the <i> Ministry of Education</i> to provide quality education to our children in the country of their residence.</p>
+</div>'
+        ]);
+        Page::create([
+            'title' => 'Intermediate Section',
+            'slug' => 'boys-middle-school-g4-to-g8',
+            'body' => '<div class="entry-content">
+            <p>In G4 to G8, boys are taught in a separate section of the building. The middle school curriculum is designed to further develop key skills whilst gradually moving to more specialised subject learning and with a greater emphasis on acquiring subject-specific knowledge and skills. From Grade 7 they progress from Science to the separate sciences: Physics, Chemistry and Biology. The students are regularly assessed and provided with detailed feedback that enables them to further improve their learning in each subject. By Grade 8 students begin being taught the specific knowledge and skills they will need for their IGCSE courses. Courses offered include:</p>
+    <ul>
+    <li>English &amp; Maths</li>
+    <li>Science</li>
+    <li>Physics, Chemistry &amp; Biology</li>
+    <li>ICT</li>
+    <li>*Arabic</li>
+    <li>*Islamic Studies including Quran</li>
+    <li>*History &amp; Geography of Saudi Kingdom</li>
+    <li>Activities in PE, Sport &amp; Art</li>
+    <li>French</li>
+    </ul>
+    <p>The students in Grade 8 will&nbsp;be entered for&nbsp;Checkpoint examinations to enable the school to monitor, review and evaluate the academic progress of each individual student in order to enable them to achieve their full potential.&nbsp; From this academic year onwards, Grade 6 and 8 will take Checkpoint examinations based on the reason mentioned earlier.</p>
+    <p>The curriculum is delivered in English and students are encouraged to use English throughout their time at the school.</p>
+    <p>*As part of its commitment to support the strengthening of Saudi identity and Islamic ethos, and in keeping with Ministry of Education rules, the school delivers Arabic, the History and Geography of the Saudi Kingdom, and Islamic Studies, including Quran lessons, in the Arabic language.</p>
+  =</div>'
+        ]);
+        Page::create([
+            'title' => 'Secondary Section',
+            'slug' => 'boys-upper-school-g9-to-g10',
+            'body' => ''
+        ]);
+        Page::create([
+            'title' => 'Parents Council',
+            'slug' => 'girls-weekly-plan',
+            'body' => '<div class="entry-content">
+            <p>Our mission is to promote the exchange of ideas among parent representatives of all sections in Al Hejaz School and to serve as a vehicle of communications within the District for parents, teachers, administrators, the Board of Education and the community. We exist to ensure that all parents are supported and empowered to become effective partners in their children’s education.</p>
+    <ul>
+    <li><span style="color:#ff9900;"><a style="color:#ff9900;" href="https://alhejazsite.wordpress.com/top-10-exam-tips/">Top 9 Exam Tips</a></span></li>
+    <li><span style="color:#ff9900;"><a style="color:#ff9900;" href="http://wp.me/P84l8O-is">How to Avoid Stress during Exams</a></span></li>
+    <li><span style="color:#ff9900;"><a style="color:#ff9900;" href="https://alhejazsite.wordpress.com/knowledge-in-islam/">Knowledge in Islam</a></span></li>
+    </ul>
+</div>'
+        ]);
+        Page::create([
+            'title' => 'Student Council',
+            'slug' => 'boys-student-council',
+            'body' => '<div class="entry-content">
+            <p>Meet Al Hejaz School Student Council Members for the 2016-2017 school year. Student Council’s mission this year is to improve our school and community.</p>
+    <p>The group meets once a month on Tuesdays during the council members’ recess and lunch hour. Council members are elected by their peers. They represent their class by sharing what the council talks about with their classroom and sharing with the council what their class’ thoughts/opinions are. Council members contribute ideas, strategies, and effort to improve the school and community. Council members also use their leadership skills to coordinate with other school committees and teachers to put events together.</p>
+    <h2>October</h2>
+    <p>Council members were welcomed into Student Council. We did an inclusion activity, went over guidelines and expectations of council members, created the group’s mission and purpose, and started coordinating our first school community event, the Quran Competition.</p>
+    <h2>November</h2>
+    <p>The group continued their communication with classrooms about the morning broadcasting program with the coordinator, Mr Zain AlAbedeen. We also brainstormed different ideas for our school-wide celebrations, community circles, and spirit days. Council members will go back to their classroom and get ideas for broadcasting days. Ideas will be shared at next month’s council meeting.</p>
+    <h2>Advisors</h2>
+    <p>If you have any questions, comments or ideas for student council, please contact one of the advisors at Tel. 6171300 Ext.120<br>
+    1. Mr. Sameh: the Student advisor<br>
+    2. Mr. Smith : Adpat executive –</p>
+   	</div>'
+        ]);
+        Page::create([
+            'title' => 'Boys Activities Gallery',
+            'slug' => 'boys-activities-gallery',
+            'body' => ''
+        ]);
+        Page::create([
+            'title' => 'About Girls Section',
+            'slug' => 'about-girls-section',
+            'body' => '<div class="entry-content">
+            <p><strong>Welcome to the Girls’ Section of Al Hejaz International School<img loading="lazy" data-attachment-id="1171" data-permalink="https://alhejazsite.wordpress.com/about-girls-section/about-girls/" data-orig-file="https://alhejazsite.files.wordpress.com/2016/12/about-girls.png" data-orig-size="386,286" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="about-girls" data-image-description="" data-medium-file="https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=300" data-large-file="https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=386" class=" wp-image-1171 alignright" src="https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=255&amp;h=189" alt="about-girls" width="255" height="189" align="right" srcset="https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=255&amp;h=189 255w, https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=150&amp;h=111 150w, https://alhejazsite.files.wordpress.com/2016/12/about-girls.png?w=300&amp;h=222 300w, https://alhejazsite.files.wordpress.com/2016/12/about-girls.png 386w" sizes="(max-width: 255px) 100vw, 255px"></strong></p>
+    <p style="text-align:justify;">Al Hejaz School, Girls’ Section is committed to bring out the best in everyone.&nbsp;In congruent to our schools’ ethos of &nbsp;<strong><em>Faith, Excellence and Service,</em></strong>&nbsp;we want our children and young people to be confident, well-rounded individuals who are prepared to play a full role in the world in which they live, at the same with strong faith in their religion.</p>
+    <p style="text-align:justify;">In pursuit of this, Girls’ Section is composed of KG Department, Primary Department ( from Grades 1- 4) and Secondary Department ( from Grades 5-8). We are following British Curriculum, thus our learning resources and classroom practices are according to this standard. Our major exams are composed of Quizzes and Term&nbsp;Exams. Checkpoint exams for Grades 6 and 8 is given. We likewise adhere to the standards of the Ministry of Education in all its standards and supervisions. The lined up co-curricular and extra curricular activities in the&nbsp; Girl’s section aim to develop the holistic development of our students. A strong and dynamic homeroom class facilitated by the mentor teacher is a venue for open communication and interaction among students and between teachers.</p>
+    <p style="text-align:justify;">Parents may log in to their&nbsp; personal account and see results of quizzes and exams of their child. You may also see weekly plan from this site. &nbsp;Aside from the site’s updated look, you will notice information is accessible and organized with our students, parents and educators in mind. This site reflects our continued efforts to communicate effectively and transparently about education at Al Hejaz.</p>
+    <p style="text-align:justify;">We constantly strive to inspire a passion for learning in our young people that goes beyond the school gates, out into the local community and ultimately enriches the society they live in. We are a strongly united school built around a supportive culture for learning where we empower our young people to feel free to pursue knowledge and ideas within a caring culture of warm relationships and powerful diversity.&nbsp; In doing this, we work closely with our families in order to continually develop resilient, confident and aspirational young people who will be proud of themselves.</p>
+    <p style="text-align:justify;">We are driven by one key principle which is that education can truly make a positive difference to a young person’s life . We are honored by your trust and confidence in putting your child in our care.&nbsp; Best regards and only the best for all of us. May Allah bless us all!</p>
+    <p>&nbsp;</p>
+    <p><strong>Munira Al Ghamdi<br>
+    </strong><strong>Principal, Girl’s Section</strong></p>
+	</div>'
+        ]);
+        Page::create([
+            'title' => 'Girls Weekly Plan',
+            'slug' => 'girls-weekly-plan-2',
+            'body' => ''
+        ]);
+
+
+        Page::create([
+            'title' => 'boys weekly plan',
+            'slug' => 'boys-weekly-plan',
+            'body' => ''
+        ]);
+
+        Page::create([
+            'title' => 'Parents Dashboard',
+            'slug' => 'parents-dashboard',
+            'body' => ''
+        ]);
+
+        Page::create([
+            'title' => 'girls activity gallery',
+            'slug' => 'girls-activity-gallery',
+            'body' => ''
+        ]);
+
+        Page::create([
+            'title' => 'KG Weekly Plan',
+            'slug' => 'kg-weekly-plan',
+            'body' => ''
+        ]);
+
+        Page::create([
+            'title' => 'KG Events Calendar',
+            'slug' => 'kg-events-calendar',
+            'body' => ''
+        ]);
+
+        Page::create([
+            'title' => 'KG Activities Gallery',
+            'slug' => 'kg-activities-gallery',
+            'body' => ''
+        ]);
     }
 }
