@@ -721,7 +721,242 @@ greater good in the local, national and global community.
         Page::create([
             'title' => 'Boys Activities Gallery',
             'slug' => 'boys-activities-gallery',
-            'body' => ''
+            'body' => '<ul class="gallery_box">
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0273.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0280.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0324.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0325.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0326.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0343.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0371.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0375.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0389.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0397.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0402.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0416.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0440.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0559.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0561.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0569.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0574.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0603.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0610.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0759.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0774.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0776.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0787.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1620.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1643.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2249.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2266.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2321.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2323.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2344.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3876.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3911.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3913.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3971.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3972.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3977.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3979.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_4165.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/Geology Trip1.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+        </ul>'
         ]);
         Page::create([
             'title' => 'About Girls Section',
@@ -760,7 +995,242 @@ greater good in the local, national and global community.
         Page::create([
             'title' => 'girls activity gallery',
             'slug' => 'girls-activity-gallery',
-            'body' => ''
+            'body' => '<ul class="gallery_box">
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0273.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0280.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0324.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0325.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0326.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0343.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0371.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0375.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0389.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0397.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0402.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0416.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0440.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0559.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0561.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0569.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0574.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0603.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0610.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0759.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0774.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0776.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0787.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1620.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1643.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2249.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2266.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2321.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2323.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2344.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3876.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3911.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3913.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3971.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3972.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3977.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3979.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_4165.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/Geology Trip1.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+        </ul>'
         ]);
 
         Page::create([
@@ -778,7 +1248,242 @@ greater good in the local, national and global community.
         Page::create([
             'title' => 'KG Activities Gallery',
             'slug' => 'kg-activities-gallery',
-            'body' => ''
+            'body' => '<ul class="gallery_box">
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0273.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0280.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0324.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0325.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0326.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0343.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0371.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0375.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0389.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0397.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0402.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0416.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0440.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0559.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0561.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0569.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0574.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0603.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0610.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0759.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0774.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0776.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_0787.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1620.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_1643.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2249.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2266.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2321.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2323.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_2344.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3876.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3911.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3913.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3971.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3972.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3977.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_3979.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/IMG_4165.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+            <li>
+                <a href="#0"><img src="' . asset('storage/gallery/Geology Trip1.JPG') . '">
+                <div class="box_data">
+                </div>
+                </a>
+            </li>
+        </ul>'
         ]);
     }
 }
