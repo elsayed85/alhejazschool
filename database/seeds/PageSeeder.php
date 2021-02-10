@@ -521,13 +521,12 @@ greater good in the local, national and global community.
             'body' => '<div class="entry-content">
             <h2>Assalamu Alaikum!</h2>
     <p><img class="aligncenter size-full wp-image-46" src="https://alhejazsite.files.wordpress.com/2013/07/bukhaaree.jpg?w=1080" alt="bukhaaree"></p>
-    <p><img data-attachment-id="1011" data-permalink="https://alhejazsite.wordpress.com/his/welcome-from-the-principal/sameer/" data-orig-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg" data-orig-size="5184,1608" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5.6&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 1200D&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1480189413&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;24&quot;,&quot;iso&quot;:&quot;3200&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="sameer" data-image-description="" data-medium-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=300" data-large-file="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1024" class="alignnone size-full wp-image-1011" src="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1080" alt="sameer" srcset="https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1080 1080w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=2160 2160w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=150 150w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=300 300w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=768 768w, https://alhejazsite.files.wordpress.com/2013/07/sameer.jpg?w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px"></p>
     <blockquote><p>Indeed actions are by intention and every man shall have that which he intended.</p></blockquote>
     <p style="text-align:justify;">At the beginning of a new academic year, I would like to express my warm welcome to all the staff of Al Hejaz International School.</p>
     <p style="text-align:justify;">It is my fervent hope that you will exert more efforts in what promises to be an interesting and stimulating new learning atmosphere in our school this concurrent year with the continuing academic accreditation process. I am absolutely confident that you will introduce a high standard of education that reflects your educational experiences. This I believe will be compatible to the prerequisites of this era, in harmony with our educational mission accompanied by its Islamic features and international standards towards a better education.<br>
     I wish you success and may Allah bless you.</p>
     <p style="text-align:justify;">General Manager<br>
-    Mr. Sameer Ben Ahmed Al Hakim</p>
+    Mr.Mazed al Otibi</p>
     <p style="text-align:justify;">
     </p></div>'
         ]);

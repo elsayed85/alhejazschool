@@ -219,14 +219,14 @@
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Upper School (G9 to G10)');">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Boys Upper School (G9 )');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
                         <div style="width: 100%">
-                            <h3 class="mb-4">Boys Upper School (G9 to G10)</h3>
+                            <h3 class="mb-4">Boys Upper School (G9)</h3>
                             <div class="faded">
-                                <p>In G9 to G10 boys are taught in a separate section of the building</p>
+                                <p>In G9  boys are taught in a separate section of the building</p>
                                 <a href="{{ route('site.page.show' , ['page' => 'boys-upper-school-g9-to-g10']) }}"
                                     class="btn btn-primary">Read more</a>
                             </div>
@@ -240,14 +240,14 @@
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch"
-                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Girls Upper School (G9 to G10)');">
+                            style="background-image: url('https://dummyimage.com/800x400/dcdcda/000000.jpg&text=Girls Upper School (G9)');">
                         </div>
                     </div>
                     <div class="text d-flex align-items-center pt-3 text-center">
                         <div style="width: 100%">
-                            <h3 class="mb-4">Girls Upper School (G9 to G10)</h3>
+                            <h3 class="mb-4">Girls Upper School (G9)</h3>
                             <div class="faded">
-                                <p>The students in G9 and G10 are prepared thoroughly and we build on the information
+                                <p>The students in G9 are prepared thoroughly and we build on the information
                                     gathered from G6</p>
                                 <a href="{{ route('site.page.show' , ['page' => 'girls-upper-school-g9-to-g10']) }}"
                                     class="btn btn-primary">Read more</a>
@@ -336,7 +336,7 @@
                     </div>
                     <h3 class="mb-4">Address</h3>
                     <p>
-                        Saudi Arabia,Jeddah,Al Aziziyah Area,Sabreen Street,Al Hejaz International School Building
+                        Saudi Arabia,Jeddah,Al Aziziyah Area,Sabeen Street,Al Hejaz International School Building
                     </p>
                 </div>
             </div>
