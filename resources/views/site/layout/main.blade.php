@@ -100,7 +100,8 @@
                                         General Calendar</a></li>
                                 <li id="menu-item-1507"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1507"><a
-                                        href="{{ route('site.page.show' , ['page' => "student-handbook"]) }}">Student Handbook</a>
+                                        href="{{ route('site.page.show' , ['page' => "student-handbook"]) }}">Student
+                                        Handbook</a>
                                 </li>
                                 <li id="menu-item-1508"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1508"><a
@@ -123,7 +124,8 @@
                             <ul class="sub-menu">
                                 <li id="menu-item-1001"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1001"><a
-                                        href="{{ route('site.page.show' , ['page' => "about-boys-section"]) }}">About Boys
+                                        href="{{ route('site.page.show' , ['page' => "about-boys-section"]) }}">About
+                                        Boys
                                         Section</a></li>
                                 <li id="menu-item-976"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-976"><a
@@ -131,7 +133,8 @@
                                         Dashboard</a></li>
                                 <li id="menu-item-972"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-972"><a
-                                        href="{{ route('site.page.show' , ['page' => "boys-weekly-plan"]) }}">Boys Weekly Plan</a>
+                                        href="{{ route('site.page.show' , ['page' => "boys-weekly-plan"]) }}">Boys
+                                        Weekly Plan</a>
                                 </li>
                                 <li id="menu-item-919"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919"><a
@@ -143,7 +146,8 @@
                                         Section</a></li>
                                 <li id="menu-item-971"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-971"><a
-                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan"]) }}">Parents Council</a>
+                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan"]) }}">Parents
+                                        Council</a>
                                 </li>
                                 <li id="menu-item-970"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a
@@ -151,7 +155,8 @@
                                         Council</a></li>
                                 <li id="menu-item-966"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a
-                                        href="{{ route('site.page.show' , ['page' => "boys-activities-gallery"]) }}">Boys Activities
+                                        href="{{ route('site.page.show' , ['page' => "boys-activities-gallery"]) }}">Boys
+                                        Activities
                                         Gallery</a></li>
                             </ul>
                         </li>
@@ -161,7 +166,9 @@
                     <ul>
                         <li id="menu-item-916"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-916"
-                            aria-haspopup="true"><a href="{{ route('site.page.show' , ['page' => "kindergarten-kg1-to-kg3"]) }}">KG Section</a>
+                            aria-haspopup="true"><a
+                                href="{{ route('site.page.show' , ['page' => "kindergarten-kg1-to-kg3"]) }}">KG
+                                Section</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-917"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-917"><a
@@ -173,14 +180,17 @@
                                         Dashboard</a></li>
                                 <li id="menu-item-994"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994"><a
-                                        href="{{ route('site.page.show' , ['page' => "kg-weekly-plan"]) }}">KG Weekly Plan</a></li>
+                                        href="{{ route('site.page.show' , ['page' => "kg-weekly-plan"]) }}">KG Weekly
+                                        Plan</a></li>
                                 <li id="menu-item-993"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993"><a
-                                        href="{{ route('site.page.show' , ['page' => "kg-events-calendar"]) }}">KG Events
+                                        href="{{ route('site.page.show' , ['page' => "kg-events-calendar"]) }}">KG
+                                        Events
                                         Calendar</a></li>
                                 <li id="menu-item-992"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-992"><a
-                                        href="{{ route('site.page.show' , ['page' => "kg-activities-gallery"]) }}">KG Activities
+                                        href="{{ route('site.page.show' , ['page' => "kg-activities-gallery"]) }}">KG
+                                        Activities
                                         Gallery</a></li>
                             </ul>
                         </li>
@@ -204,7 +214,8 @@
                                         Dashboard</a></li>
                                 <li id="menu-item-979"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-979"><a
-                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan-2"]) }}">Girls Weekly
+                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan-2"]) }}">Girls
+                                        Weekly
                                         Plan</a></li>
                                 <li id="menu-item-975"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-975"><a
@@ -220,7 +231,8 @@
                                         section</a></li>
                                 <li id="menu-item-980"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-980"><a
-                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan"]) }}">Parents Council</a>
+                                        href="{{ route('site.page.show' , ['page' => "girls-weekly-plan"]) }}">Parents
+                                        Council</a>
                                 </li>
                                 <li id="menu-item-1499"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1499"><a
@@ -250,12 +262,16 @@
                             Islamic ethos, and in keeping with Ministry of Education rules, the school also delivers
                             Arabic, Islamic studies, the History and Geography of the Saudi Kingdom and Quran
                             lessons in the Arabic language.</p>
-                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                                <li class="ftco-animate"><a href="https://twitter.com/alhejazS"><span class="icon-twitter"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.snapchat.com/add/alhejaz.sc"><span class="icon-snapchat"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.facebook.com/alhejaz.sc.7"><span class="icon-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="https://www.instagram.com/alhejazinternational.sc/"><span class="icon-instagram"></span></a></li>
-                            </ul>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a href="https://twitter.com/alhejazS"><span
+                                        class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.snapchat.com/add/alhejaz.sc"><span
+                                        class="icon-snapchat"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/alhejaz.sc.7"><span
+                                        class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/alhejazinternational.sc/"><span
+                                        class="icon-instagram"></span></a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md">
@@ -283,10 +299,10 @@
                                 <li>
                                     <span class="icon icon-map-marker"></span><span class="text">
                                         <address>
-                                            Al-Hejaz International School (Jeddah)
-                                            PO BOX 4100 JEDDAH 21491<br>
-                                            Kingdom of Saudi Arabia (KSA)<br>
-                                            Fax: +966-2-6717090<br>
+                                            7458 Zuhayr Ibn Abi Salamah - Al Aziziyah Dist. <br>
+                                            Unit No 27 <br>
+                                            Jeddah 23342 - 2474 <br>
+                                            Kingdom of Saudi Arabia <br>
                                         </address>
 
                                     </span>

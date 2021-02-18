@@ -1,8 +1,79 @@
 @extends('site.layout.main')
 @section('title' , "Home")
+@section('css')
+<style>
+    .crossfade>figure {
+        animation: imageAnimation 30s linear infinite 0s;
+        backface-visibility: hidden;
+        background-size: cover;
+        background-position: center center;
+        color: transparent;
+        height: 100%;
+        left: 0px;
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .crossfade>figure:nth-child(1) {
+        background-image: url('{{ asset('site/assets/cover.png') }}');
+    }
+
+    .crossfade>figure:nth-child(2) {
+        animation-delay: 6s;
+        background-image: url('{{ asset('storage/gallery/IMG_0324.JPG') }}');
+    }
+
+    .crossfade>figure:nth-child(3) {
+        animation-delay: 12s;
+        background-image: url('{{ asset('storage/gallery/IMG_0389.JPG') }}');
+    }
+
+    .crossfade>figure:nth-child(4) {
+        animation-delay: 18s;
+        background-image: url('{{ asset('storage/gallery/IMG_2323.JPG') }}');
+    }
+
+    .crossfade>figure:nth-child(5) {
+        animation-delay: 24s;
+        background-image: url('{{ asset('storage/gallery/IMG_0397.JPG') }}');
+    }
+
+    @keyframes imageAnimation {
+        0% {
+            animation-timing-function: ease-in;
+            opacity: 0;
+        }
+
+        8% {
+            animation-timing-function: ease-out;
+            opacity: 1;
+        }
+
+        17% {
+            opacity: 1
+        }
+
+        25% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0
+        }
+    }
+</style>
+@endsection
 @section('main')
-<section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('site/assets/cover.png') }}');"
-    data-section="home">
+<section class="hero-wrap js-fullheight crossfade"
+     data-section="home">
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
@@ -104,7 +175,8 @@
     </div>
 </section>
 
-<section class="ftco-counter  img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about" style="background-image: url({{ asset('site/assets/cover2.png') }});background-repeat: no-repeat;background-size: 28%;background-position-y: bottom;background-position-x: right;">
+<section class="ftco-counter  img ftco-section ftco-no-pt ftco-no-pb" id="section-counter" data-section="about"
+    style="background-image: url({{ asset('site/assets/cover2.png') }});background-repeat: no-repeat;background-size: 28%;background-position-y: bottom;background-position-x: right;">
     <div class="container ">
         <div class="row d-flex  ">
             <div class="col-lg-12 pl-lg-5 py-5">
@@ -112,8 +184,16 @@
                     <div class="col-md-12 heading-section ftco-animate">
                         <span class="subheading">Welcome – Chairman</span>
                         <h2 class="mb-4">2021</h2>
-                        <p>It is a great pleasure to welcome this outstanding group of educators to Al Hejaz International School for the academic year 2021 – 2022.We are optimistic that you will soon feel the sense of pride we share in belonging to this noble educational establishment.&nbsp;</p>
-                        <p>We believe that a great responsibility is laid on you to fortify the image of the school in order to educate a new generation of our school and to offer them the opportunity for a brilliant future. Therefore, we wish you all the best in your mission and we encourage you to exert more effort to achieve our goals in the current developments of the school which will consequently enable us to meet the highest standards of education. Remember, that “to the world you may be just a teacher, but to your students, you are a HERO.&nbsp;</p>
+                        <p>It is a great pleasure to welcome this outstanding group of educators to Al Hejaz
+                            International School for the academic year 2021 – 2022.We are optimistic that you will soon
+                            feel the sense of pride we share in belonging to this noble educational establishment.&nbsp;
+                        </p>
+                        <p>We believe that a great responsibility is laid on you to fortify the image of the school in
+                            order to educate a new generation of our school and to offer them the opportunity for a
+                            brilliant future. Therefore, we wish you all the best in your mission and we encourage you
+                            to exert more effort to achieve our goals in the current developments of the school which
+                            will consequently enable us to meet the highest standards of education. Remember, that “to
+                            the world you may be just a teacher, but to your students, you are a HERO.&nbsp;</p>
                         <p>I would personally like to express my deep appreciation for your efforts.&nbsp;</p>
                     </div>
                 </div>
@@ -226,7 +306,7 @@
                         <div style="width: 100%">
                             <h3 class="mb-4">Boys Upper School (G9)</h3>
                             <div class="faded">
-                                <p>In G9  boys are taught in a separate section of the building</p>
+                                <p>In G9 boys are taught in a separate section of the building</p>
                                 <a href="{{ route('site.page.show' , ['page' => 'boys-upper-school-g9-to-g10']) }}"
                                     class="btn btn-primary">Read more</a>
                             </div>
@@ -263,7 +343,7 @@
 
 
 
-<section class="ftco-section contact-section ftco-no-pb" data-section="contact" id="contact-section" >
+<section class="ftco-section contact-section ftco-no-pb" data-section="contact" id="contact-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
