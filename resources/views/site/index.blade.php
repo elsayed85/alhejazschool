@@ -18,27 +18,12 @@
     }
 
     .crossfade>figure:nth-child(1) {
-        background-image: url('{{ asset('site/assets/cover.png') }}');
+        background-image: url('{{ asset('storage/gallery/1.jpg') }}');
     }
 
     .crossfade>figure:nth-child(2) {
         animation-delay: 6s;
-        background-image: url('{{ asset('storage/gallery/IMG_0324.JPG') }}');
-    }
-
-    .crossfade>figure:nth-child(3) {
-        animation-delay: 12s;
-        background-image: url('{{ asset('storage/gallery/IMG_0389.JPG') }}');
-    }
-
-    .crossfade>figure:nth-child(4) {
-        animation-delay: 18s;
-        background-image: url('{{ asset('storage/gallery/IMG_2323.JPG') }}');
-    }
-
-    .crossfade>figure:nth-child(5) {
-        animation-delay: 24s;
-        background-image: url('{{ asset('storage/gallery/IMG_0397.JPG') }}');
+        background-image: url('{{ asset('storage/gallery/2.jpg') }}');
     }
 
     @keyframes imageAnimation {
@@ -67,11 +52,7 @@
 </style>
 @endsection
 @section('main')
-<section class="hero-wrap js-fullheight crossfade"
-     data-section="home">
-    <figure></figure>
-    <figure></figure>
-    <figure></figure>
+<section class="hero-wrap js-fullheight crossfade" data-section="home">
     <figure></figure>
     <figure></figure>
     <div class="overlay"></div>
@@ -416,7 +397,10 @@
                     </div>
                     <h3 class="mb-4">Address</h3>
                     <p>
-                        Saudi Arabia,Jeddah,Al Aziziyah Area,Sabeen Street,Al Hejaz International School Building
+                        7458 Zuhayr Ibn Abi Salamah - Al Aziziyah Dist. <br>
+                        Unit No 27 <br>
+                        Jeddah 23342 - 2474 <br>
+                        Kingdom of Saudi Arabia <br>
                     </p>
                 </div>
             </div>
