@@ -31,7 +31,7 @@
         <div class="container">
             <a class="navbar-brand" href="{{ route('site.home') }}">
                 <img class="logo" alt="logo" src="{{ asset('site/assets/logo.png') }}" width="60px">
-                <span>Alhejaz School</span>
+                <span>{{ config('app.name') }}</span>
             </a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
                 data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">

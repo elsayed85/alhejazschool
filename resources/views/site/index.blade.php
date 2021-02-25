@@ -26,6 +26,21 @@
         background-image: url('{{ asset('storage/gallery/2.jpg') }}');
     }
 
+    .crossfade>figure:nth-child(3) {
+        animation-delay: 12s;
+        background-image: url('{{ asset('storage/gallery/3.jpg') }}');
+    }
+
+    .crossfade>figure:nth-child(4) {
+        animation-delay: 18s;
+        background-image: url('{{ asset('storage/gallery/4.jpg') }}');
+    }
+
+    .crossfade>figure:nth-child(5) {
+        animation-delay: 24s;
+        background-image: url('{{ asset('storage/gallery/5.jpg') }}');
+    }
+
     @keyframes imageAnimation {
         0% {
             animation-timing-function: ease-in;
@@ -53,6 +68,9 @@
 @endsection
 @section('main')
 <section class="hero-wrap js-fullheight crossfade" data-section="home">
+    <figure></figure>
+    <figure></figure>
+    <figure></figure>
     <figure></figure>
     <figure></figure>
     <div class="overlay"></div>
